@@ -83,6 +83,39 @@ Brain_Tumor_Detection/
 │
 └── README.md
 ```
+## 🚀 Quick Start
+Follow these steps to get the project up and running on your local machine.
+
+### 1. Clone the Repository
+```Bash
+git clone https://github.com/Arya-azimi/Brain_Tumor_Detection.git
+cd Brain_Tumor_Detection
+```
+
+
+### 2. Install Dependencies
+Ensure you have Python installed, then install the required libraries:
+
+```Bash
+pip install -r requirements.txt
+```
+### 3. Running the Components
+
+You can run the project in two ways depending on your needs:
+
+To run the Interactive Dashboard:
+
+```Bash
+cd dashboard
+streamlit run app.py
+```
+
+To run the API Service:
+
+```Bash
+cd api
+uvicorn main:app --reload
+```
 
 ---
 
