@@ -1,0 +1,22 @@
+# Ignore all image files in data directories
+data/**/images/*.jpg
+data/**/images/*.jpeg
+data/**/images/*.png
+data/**/images/*.bmp
+
+# Ignore dataset labels if they are generated or large
+data/**/labels/*.txt
+
+# Ignore model weights and training runs
+training/yolov8s-cls.pt
+training/runs/
+**/weights/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Ignore system files
+.DS_Store
